@@ -28,6 +28,9 @@
                     <a class="nav-link" href="#skills">Skills</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
@@ -38,7 +41,7 @@
 <header class="bg-dark text-light text-center py-5">
     <div class="container">
         <h1>Welcome to My Personal Website</h1>
-        <p class="lead">I am Khaldoun Aljasem, an experienced Data Engineer and Embedded Software Developer.</p>
+        <p class="lead">I am Khaldoun Aljasem, an experienced Data Engineer and Software Developer.</p>
         <a href="https://www.linkedin.com/in/khaldoun-aljasem/" class="btn btn-primary">LinkedIn</a>
     </div>
 </header>
@@ -53,7 +56,7 @@
             Workbench, Visual Studio, QtCreator, and C++ Builder. I am proficient in utilizing code analysis tools such
             as Klockwork and SonarQube. Proficient in project management tools including Jira and Confluence.
             Well-versed in version control systems like GIT, Subversion, and Gerrit. I am experienced with
-            virtualization tools like VMware and CI/CD platforms like Jenkins, BuildBot and Airflow. Adaptable to agile
+            virtualization tools like VMware and CI/CD platforms like Jenkins, BuildBot, and Airflow. Adaptable to agile
             development methodologies.</p>
     </div>
 </section>
@@ -195,17 +198,10 @@
             </li>
             <li>Tools Utilization:
                 <ul>
-                    <li>Utilize tools such as Qt Creator, C++ Builder, MySQL Workbench, Visual Studio, Visual Code, and
-                        PyCharm.
-                    </li>
+                    <li>Utilize tools such as Visual Studio, Git, and Wind River Workbench.</li>
                 </ul>
             </li>
         </ol>
-
-        <h3>Previous Experience</h3>
-        <p>Schneider Electric, Valeo, Freelancer (Software Developer), ICDL Trainer (Unicef)</p>
-        <p>Worked on projects ranging from PLC development to real-time software for comfort and driving assistance
-            systems. Mastery of fieldbus stacks, Agile methodologies, and various programming languages.</p>
     </div>
 </section>
 
@@ -213,25 +209,31 @@
     <div class="container">
         <h2>Skills</h2>
         <ul>
-            <li><strong>Programming Languages:</strong> C++, Python, C#, Structured Text, MySQL</li>
-            <li><strong>Cloud & Data Engineering:</strong> AWS (CloudFormation, Terraform, Lambda, Glue, S3, SNS, SQS,
-                DynamoDB, CodeCommit), Data Pipeline Architecture and Development, Data Quality Assurance and
-                Governance, ETL Processes
+            <li>Data Engineering</li>
+            <li>Cloud Solutions (AWS, Azure)</li>
+            <li>Software Development (C++, Python, C#)</li>
+            <li>Database Management (MySQL, NoSQL)</li>
+            <li>Project Management</li>
+            <li>Version Control (GIT, Subversion)</li>
+            <li>Agile Development Methodologies</li>
+            <li>CI/CD Practices (Jenkins, BuildBot)</li>
+        </ul>
+    </div>
+</section>
+
+<section id="services" class="py-5 bg-light">
+    <div class="container">
+        <h2>Services</h2>
+        <ul>
+            <li>Data Engineering Solutions: Building robust data pipelines and architectures.</li>
+            <li>Cloud Solutions: Designing and implementing cloud-based data platforms.</li>
+            <li>Software Development: Custom software solutions using C++, Python, and C#.</li>
+            <li>Consulting Services: Providing expert advice on data strategies and software engineering.</li>
+            <li>Project Management: Overseeing projects from inception to completion, ensuring they meet business
+                needs.
             </li>
-            <li><strong>Embedded Systems:</strong> VxWorks, CoDeSys V3, Real-Time Programming (RTOS), Fieldbuses
-                (SERCOS3)
+            <li>Freelance Development: Offering freelance software development services tailored to your requirements.
             </li>
-            <li><strong>DevOps & CI/CD:</strong> Jenkins, BuildBot, Airflow</li>
-            <li><strong>Version Control:</strong> GIT, Subversion, Gerrit</li>
-            <li><strong>Development Tools:</strong> PyCharm, Visual Studio, WindRiver Workbench, QtCreator, C++ Builder,
-                MySQL Workbench
-            </li>
-            <li><strong>Code Analysis & Project Management Tools:</strong> Klocwork, SonarQube, Jira, Confluence</li>
-            <li><strong>Agile & Software Development Methodologies:</strong> Agile Development (Scrum), Test-Driven
-                Development (TDD)
-            </li>
-            <li><strong>Industrial Automation:</strong> PLC Development, Integration of Devices and Control Systems</li>
-            <li><strong>Virtualization:</strong> VMware</li>
         </ul>
     </div>
 </section>
@@ -239,15 +241,29 @@
 <section id="contact" class="py-5 bg-light">
     <div class="container">
         <h2>Contact</h2>
-        <p>If you'd like to get in touch, feel free to connect with me on <a
-                href="https://www.linkedin.com/in/khaldoun-aljasem/">LinkedIn</a> or email me at <a
-                href="mailto:khaldoun.aljasem@gmail.com">khaldoun.aljasem@gmail.com</a>.</p>
+        <form action="https://formspree.io/f/myzykwoe" method="POST">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        <p class="mt-3">Alternatively, feel free to connect with me on <a
+                href="https://www.linkedin.com/in/khaldoun-aljasem/">LinkedIn</a>.</p>
     </div>
 </section>
 
 <footer class="bg-dark text-light text-center py-3">
     <div class="container">
-        <p>&copy; 2024 Khaldoun Aljasem. All Rights Reserved.</p>
+        <p>&copy; 2024 Khaldoun Aljasem. All rights reserved.</p>
     </div>
 </footer>
 
