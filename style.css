@@ -1,19 +1,122 @@
+/* General Styles */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font for a modern look */
+    background-color: #f8f9fa; /* Light background for better readability */
+    color: #343a40; /* Dark text color for contrast */
 }
 
-h1, h2 {
-  margin-bottom: 1rem;
+/* Navbar Styles */
+.navbar {
+    border-bottom: 1px solid #dee2e6;
 }
 
+.navbar-brand {
+    font-weight: bold; /* Make brand name more prominent */
+}
+
+.nav-link {
+    font-weight: 500; /* Slightly bolder links */
+    color: #495057; /* Darker color for links */
+}
+
+.nav-link:hover {
+    color: #007bff; /* Bootstrap link color on hover */
+}
+
+/* Header Styles */
 header {
-  background: url('https://yourimageurl.com/your-image.jpg') no-repeat center center/cover;
-  height: 50vh;
+    background-color: #343a40; /* Dark background for header */
+    color: white;
 }
 
+header h1 {
+    font-size: 2.5rem; /* Larger font for main heading */
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.25rem; /* Slightly larger subtitle */
+}
+
+/* Section Styles */
+section {
+    padding: 60px 0; /* Uniform padding for all sections */
+}
+
+h2 {
+    font-size: 2rem; /* Heading size */
+    margin-bottom: 20px; /* Space below headings */
+}
+
+h3 {
+    font-size: 1.75rem; /* Slightly smaller for sub-headings */
+    margin-bottom: 15px; /* Space below sub-headings */
+}
+
+h4 {
+    font-size: 1.5rem; /* Font size for smaller sections */
+    margin-bottom: 10px;
+}
+
+/* Card Styles */
+.card {
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+/* List Styles */
+.list-group-item {
+    background-color: #ffffff; /* White background for list items */
+    border: 1px solid #dee2e6; /* Border for list items */
+}
+
+/* Footer Styles */
 footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
+    background-color: #343a40; /* Dark footer background */
+    color: white; /* White text in footer */
+}
+
+footer a {
+    color: #007bff; /* Link color in footer */
+}
+
+footer a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Form Styles */
+.form-label {
+    font-weight: bold; /* Bold labels for form inputs */
+}
+
+.form-control {
+    border-radius: 0.5rem; /* Rounded corners for inputs */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem; /* Smaller font on mobile */
+    }
+
+    header p {
+        font-size: 1rem; /* Smaller subtitle on mobile */
+    }
+
+    h2 {
+        font-size: 1.75rem; /* Adjusted heading size */
+    }
+
+    h3 {
+        font-size: 1.5rem; /* Adjusted sub-heading size */
+    }
+
+    .card {
+        margin-bottom: 20px; /* Spacing between cards */
+    }
 }
