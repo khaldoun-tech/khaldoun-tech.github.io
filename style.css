@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
+header {
+  background: url('https://yourimageurl.com/your-image.jpg') no-repeat center center/cover;
+  height: 50vh;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
